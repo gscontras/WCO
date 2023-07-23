@@ -1,67 +1,19 @@
-queenxconfig =
+queenxconfig = 
 {itemtype: "test",
-    YQA: {
-      story:
-      "Four queens were invited to a party with their daughters. The queen of Country A admired her daughter Princess A. The queen of Country B did not admire her daughter Princess B. The queen of country C admired her daughter Princess C and the queen of country D admired her daughter Princess D. At the end of the night, a royal photographer took a picture of Princess A, Princess C, and Princess D. ",
-      sentence:
-      "Every princess who her queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    YQI: {
-      story:
-      "Four queens were invited to a party and given tiaras. The queen of Country A admired her tiara. The queen of Country B did not admire her tiara. The queen of country C admired her tiara and the queen of country D admired her tiara. At the end of the night, a royal photographer took a picture of Queen A, Queen C, and Queen D wearing their tiaras. ",
-      sentence:
-      "Every tiara which its queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    YDA: {
-      story:
-      "TBW",
-      sentence:
-      "The princess who her queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    YDI: {
-      story:
-      "TBW",
-      sentence:
-      "The tiara which its queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    NQA: {
-      story:
-      "TBW",
-      sentence:
-      "Every princess who the queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    NQI: {
-      story:
-      "TBW",
-      sentence:
-      "Every tiara which the queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    NDA: {
-      story:
-      "TBW",
-      sentence:
-      "The princess who the queen admired was featured in the royal portrait",
-      item:
-      "queen"
-    },
-    NDI: {
-      story:
-      "TBW",
-      sentence:
-      "The tiara which the queen admired was in the royal portrait",
-      item:
-      "queen"
-  }
+
+YQA: {story: "Princesses are paired with certain queens. Some princesses are admired by their queens, and others are not.", sentence: "Every princess who her queen admired was featured in the royal portrait", label: "queen"},
+
+YQI: {story: "Princesses are paired with certain queens. Some tiaras are admired by their queens, and others are not.", sentence: "Every tiara which its queen admired was featured in the royal portrait", label: "queen"},
+
+YDA: {story: "Princesses are paired with certain queens. A princess was admired by her queen and another was not.", sentence: "The princess who her queen admired was featured in the royal portrait", label: "queen"},
+
+YDI: {story: "Princesses are paired with certain queens. A tiara was admired by its queen, and another was not.", sentence: "The tiara which its queen admired was featured in the royal portrait", label: "queen"},
+
+NQA: {story: "There is a certain queen. Some princesses are admired by that queen, and others are not.", sentence: "Every princess who the queen admired was featured in the royal portrait", label: "queen"},
+
+NQI: {story: "There is a certain queen. Some tiaras are admired by that queens, and others are not.", sentence: "Every tiara which the queen admired was featured in the royal portrait", label: "queen"},
+
+NDA: {story: "There is a certain queen. A princess was admired by that queen and another was not.", sentence: "The princess who the queen admired was featured in the royal portrait", label: "queen"},
+
+NDI: {story: "There is a certain queen. A tiara was admired by that queen, and another was not.", sentence: "The tiara which the queen admired was in the royal portrait", label: "queen"}
 }

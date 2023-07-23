@@ -1,8 +1,8 @@
 function make_slides(f) {
   var slides = {};
 
-  //var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
-  var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
+  var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
+ //var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
   var qidx = 0
 
   slides.i0 = slide({
@@ -37,7 +37,7 @@ function make_slides(f) {
       {
         practice: {
           story:
-            "Bus drivers A, B, C, and D work in Town X. Recently due to flooding, some of the bus routes were closed. Route B was on high ground and experienced no flooding, but Routes A, C, and D were partially underwater. As a result, Bus Drivers A, C, and D needed to choose a different route.",
+            "Bus drivers have certain routes. Some bus drivers were affected by the flooding, and others were not.",
           sentence:
             '"Every bus driver who was affected by the flooding chose a different route."',
         },
@@ -45,7 +45,7 @@ function make_slides(f) {
       {
         practice: {
           story:
-            "Company X had four motivational speakers give presentations this year. Committee X selected one motivational speaker to be considered for an award. The motivational speakers who were not selected by the committee were not invited to the awards ceremony, but the motivational speaker selected by the committee did attend.",
+            "There is a certain committee. A motivational speaker was selected by that committee, and another was not.",
           sentence:
             '"The motivational speaker who was selected by the committee attended the awards ceremony."',
         },
@@ -111,14 +111,39 @@ function make_slides(f) {
 
     
     present: _.shuffle([
-      pilotxconfig, 
-      pianistxconfig, 
-      queenxconfig, 
-      conductorxconfig, 
+      // pilotxconfig, 
+      // pianistxconfig, 
+      // queenxconfig, 
+      // conductorxconfig, 
+      // artistxconfig,
+      // supervisorxconfig, 
+      // doctorxconfig, 
+      // travelagentxconfig,
+      pilotxconfig,
+      pianistxconfig,
+      queenxconfig,
+      conductorxconfig,
       artistxconfig,
-      supervisorxconfig, 
-      doctorxconfig, 
+      supervisorxconfig,
+      doctorxconfig,
       travelagentxconfig,
+      playwrightxconfig,
+      professorxconfig,
+      scientistxconfig,
+      chefxconfig,
+      priestxconfig,
+      bartenderxconfig,
+      patientxconfig,
+      groomxconfig,
+      troopleaderxconfig,
+      CEOxconfig,
+      dentistxconfig,
+      nutritionistxconfig,
+      choreographerxconfig,
+      stylistxconfig,
+      fanxconfig,
+      coachxconfig,
+      queenxconfig,
       filler1
     ]),
 
