@@ -111,14 +111,7 @@ function make_slides(f) {
 
     
     present: _.shuffle([
-      pilotxconfig, 
-      pianistxconfig, 
-      queenxconfig, 
-      conductorxconfig, 
-      artistxconfig,
-      supervisorxconfig, 
-      doctorxconfig, 
-      travelagentxconfig,
+      professorxconfig,
       filler1
     ]),
 
