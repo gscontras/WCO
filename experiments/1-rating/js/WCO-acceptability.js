@@ -2,7 +2,7 @@ function make_slides(f) {
   var slides = {};
 
   //var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
-  var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
+  var conditions = _.shuffle(["YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI","YQA","YQI","YDA","YDI","NQA","NQI","NDA","NDI"])
   var qidx = 0
 
   slides.i0 = slide({
@@ -111,6 +111,7 @@ function make_slides(f) {
 
     
     present: _.shuffle([
+      // Vincent: add your items and fillers here
       professorxconfig,
       filler1
     ]),
