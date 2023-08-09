@@ -1,11 +1,5 @@
-filler1 =
-{   itemtype: "filler",
-    filler: {
-      story:
-      "filler1 story",
-      sentence:
-      "filler1 sentence",
-      item:
-      "filler1"
-    }
+filler1xconfig = 
+{itemtype: "test",
+
+filler: {story: "There is a certain chairman. Some presenters were admired by that chairman, and others were not. ", sentence: "The presenter who the chairman admired was hired on the spot", item: "filler1"}
 }
