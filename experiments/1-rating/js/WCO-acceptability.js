@@ -1,8 +1,3 @@
-//Vinny's notes:  1) not sure whether to include fillers/practice xconfigs in present: _.shuffle() function
-//2)the princess context/story doesn't make much sense (here's what I got)
-//in my practice run i got : Princesses are paired with certain queens. Some tiaras are admired by their queens, and others are not.
-//this was not one of the ones I made but I'm not sure if you would like me to change it or not
-
 function make_slides(f) {
   var slides = {};
 
