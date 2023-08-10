@@ -142,7 +142,13 @@ function make_slides(f) {
       choreographerxconfig,
       stylistxconfig,
       fanxconfig,
-      coachxconfig
+      coachxconfig,
+      filler1xconfig,
+      filler2xconfig,
+      filler3xconfig,
+      filler4xconfig,
+      filler5xconfig,
+      filler6xconfig
       //filler1xconfig
     ]),
 
