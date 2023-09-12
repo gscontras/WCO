@@ -1,11 +1,11 @@
 doctorxconfig = 
 {itemtype: "test",
 
-YQA: {story: "Nurses are work for certain doctors. Some nurses were consulted at the clinic by their doctor, and others were not.", sentence: "Every nurse who her doctor consulted at the clinic offered valuable insight.", item: "doctor"},
+YQA: {story: "Nurses work for certain doctors. Some nurses were consulted at the clinic by their doctor, and others were not.", sentence: "Every nurse who her doctor consulted at the clinic offered valuable insight.", item: "doctor"},
 
 YQI: {story: "Labs tests are inspected by certain doctors. Some lab tests were consulted at the clinic by their doctor, and others were not.", sentence: "Every lab which its doctor consulted at the clinic offered valuable insight.", item: "doctor"},
 
-YDA: {story: "Nurses are work for certain doctors. A nurse was consulted at the clinic by her doctor, and another was not.", sentence: "The nurse who her doctor consulted at the clinic offered valuable insight.", item: "doctor"},
+YDA: {story: "Nurses work for certain doctors. A nurse was consulted at the clinic by her doctor, and another was not.", sentence: "The nurse who her doctor consulted at the clinic offered valuable insight.", item: "doctor"},
 
 YDI: {story: "Labs tests are inspected by certain doctors. A lab test was consulted at the clinic by its doctor, and another was not.", sentence: "The lab which its doctor consulted at the clinic offered valuable insight.", item: "doctor"},
 
