@@ -89,7 +89,7 @@
   <div class="slide" id="i0" >
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
     
-    <p>You will read stories followed by a description of the story and be asked to say how natural the sentence sounds given that situation. The task should take 10-15 minutes. Please pay attention, thanks!</p>
+    <p>You will read contexts followed by a sentence describing the context and be asked to say how natural the sentence sounds given that situation. The task should take 10-15 minutes. Please pay attention, thanks!</p>
 
     <button id="start_button" type="button">Start Experiment</button>
     <br />
@@ -101,7 +101,7 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
-    <p>You will be given a paragraph long story to read. After you read the story, click "next" and a sentence describing the story will appear. <b>The sentence will be in bold below the story</b>.  Your goal is to decide how natural the sentence sounds as a description of the events in the story. All the sentences are true; your task is to decide whether they sound natural in describing the events of the story. There will be two practice trials before the experiment begins. </p>
+    <p>You will be given a short context to read. After you read the context, click "next" and a test sentence will appear. The sentence will be in bold below the context.  Your goal is to decide how natural the sentence sounds as a description of the events in the context. All the sentences are true; your task is to decide whether they sound natural in describing the information given in the context. There will be two practice trials before the experiment begins. </p>
     <button onclick="_s.button()">Continue</button>
   </div>
   
@@ -187,7 +187,7 @@
     <div class="long_form">
       <div class="subj_info_title">Additional information</div>
       <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
-      <p>Did you read the instructions and do you think you did the HIT correctly?</p>
+      <p>Did you read the instructions and do you think you did the task correctly?</p>
       <label><input type="radio"  name="assess" value="No"/>No</label>
       <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
       <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
@@ -217,12 +217,12 @@
       <p>Native Language: <input type="text" id="language"/></p>
       <label>(the language(s) spoken at home when you were a child)</label>
 
-      <p>Did you enjoy the hit?</p>
+      <p>Did you enjoy the task?</p>
       <select id="enjoyment">
         <label><option value="-1"></option></label>
-        <label><option value="0">Worse than the Average HIT</option></label>
-        <label><option value="1" >An Average HIT</option></label>
-        <label><option value="2">Better than average HIT</option></label>
+        <label><option value="0">Worse than the average experimental study</option></label>
+        <label><option value="1" >An average experimental study</option></label>
+        <label><option value="2">Better than average experimental study</option></label>
       </select>
 	  
 	  <!-- <p>What did you think the experiment was about? </p>
