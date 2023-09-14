@@ -89,7 +89,7 @@
   <div class="slide" id="i0" >
     <img src="../_shared/images/meaningLab.png" alt="UCI meaning lab" id="meaningLabLogo"></img>
     
-    <p>You will read contexts followed by a sentence describing the context and be asked to say how natural the sentence sounds given that situation. The task should take 10-15 minutes. Please pay attention, thanks!</p>
+    <p>You will read contexts followed by a sentence describing the context and be asked to say how natural the sentence sounds given the context. The task should take 10-15 minutes. Please pay attention, thanks!</p>
 
     <button id="start_button" type="button">Start Experiment</button>
     <br />
@@ -101,7 +101,7 @@
 
   <div class="slide" id="instructions">
     <h3>Instructions</h3>
-    <p>You will be given a short context to read. After you read the context, click "next" and a test sentence will appear. The sentence will be in bold below the context.  Your goal is to decide how natural the sentence sounds as a description of the events in the context. All the sentences are true; your task is to decide whether they sound natural in describing the information given in the context. There will be two practice trials before the experiment begins. </p>
+    <p>You will be given a short context to read. After you read the context, click "next" and a test sentence will appear. The sentence will be in bold below the context.  Your goal is to decide how natural the sentence sounds in the context of the story. All the sentences are true; your task is to decide whether they sound natural given the context. There will be two practice trials before the experiment begins. </p>
     <button onclick="_s.button()">Continue</button>
   </div>
   
@@ -125,7 +125,7 @@
       }
     </script>
   <!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
-	<p class="p_hidden text">How natural is the sentence for describing the events of the story?</p>
+	<p class="p_hidden text">How natural is the following sentence in the context of the story?</p>
 	<!-- <p><img src = "../_shared/images/puppet.jpg" class = "p_hidden" id = "puppet"></p> -->
 	<p id="practiceSentence" class="p_hidden text" style="font-weight: bold;"></p>
     <!-- <p class = "p_hidden text"> How natural is the sentence for describing the events of the story:</p> -->
@@ -155,7 +155,7 @@
       $(".showButton").hide();
     }
     </script>
-	   <p class = "hidden">How natural is the following sentence in describing the events of the story?</p>
+	   <p class = "hidden">How natural is the following sentence in the context of the story?</p>
     <!-- <p><img src = "../_shared/images/puppet.jpg" class = "hidden" id = "puppet"></p> -->
     <p id="testSentence" class="hidden" style="font-weight: bold;"></p>
 	
