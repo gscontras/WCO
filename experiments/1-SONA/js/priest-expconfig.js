@@ -3,11 +3,11 @@ priestxconfig =
 
 YQA: {story: "Nuns are paired with certain priests. Some nuns were promoted by their priest and others were not.", sentence: "Every nun who her priest promoted was an inspiration to many people.", item: "priest"},
 
-YQI: {story: "Semons are delivered by certain priests. Some sermons were promoted by their priest, and others were not.", sentence: "Every sermon which its priest promoted was an inspiration to many people.", item: "priest"},
+YQI: {story: "Sermons are delivered by certain priests. Some sermons were promoted by their priest, and others were not.", sentence: "Every sermon which its priest promoted was an inspiration to many people.", item: "priest"},
 
 YDA: {story: "Nuns are paired with certain priests. A nun was promoted by her priest, and another was not.", sentence: "The nun who her priest promoted was an inspiration to many people.", item: "priest"},
 
-YDI: {story: "Semons are delivered by certain priests. A sermon was promoted by its priest, and another was not.", sentence: "The sermon which its priest promoted was an inspiration to many people.", item: "priest"},
+YDI: {story: "Sermons are delivered by certain priests. A sermon was promoted by its priest, and another was not.", sentence: "The sermon which its priest promoted was an inspiration to many people.", item: "priest"},
 
 NQA: {story: "There is a certain priest. Some nuns were promoted by that priest and others were not.", sentence: "Every nun who the priest promoted was an inspiration to many people.", item: "priest"},
 
