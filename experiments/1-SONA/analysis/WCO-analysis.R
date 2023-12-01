@@ -1,19 +1,19 @@
 ## set working directory
-setwd("~/git/WCO/experiments/1-rating/analysis/")
+setwd("~/git/WCO/experiments/1-SONA/analysis/")
 
 ## load helper file for bootstrapped CIs
 source("helpers.r")
 
 ## load full data file
-df = read.csv("sentence_rating-merged.csv",header=T)
-length(unique(df$workerid)) # 27
+df = read.csv("sentence_rating_sona-merged.csv",header=T)
+length(unique(df$workerid)) # 15
 
 ## filter participants by language
 unique(df$subject_information.language)
 d = df[df$subject_information.language=="English"|
        df$subject_information.language=="English "|
        df$subject_information.language=="english",]
-length(unique(d$workerid)) # 18
+length(unique(d$workerid)) # 10
 
 ## condition information
 #d = d[d$slide_number!="NA",]
@@ -31,27 +31,23 @@ d[d$item == "filler4" |
 d$filler_check = NA
 
 aggregate(response~item*filler_type*workerid,data=d,FUN=mean)
-# remove participants 30, 31*, 34, 45, 49*, 50, 51, 54*, 56, 62*, 66
+# remove participants 76, 78, 84, 85, 89, 90
 e = d[d$workerid!="30"&
-        #d$workerid!="31"&
-        d$workerid!="34"&
-        d$workerid!="45"&
-        #d$workerid!="49"&
-        d$workerid!="50"&
-        d$workerid!="51"&
-        #d$workerid!="54"&
-        d$workerid!="56"&
-        #d$workerid!="62"&
-        d$workerid!="66"
+        d$workerid!="76"&
+        d$workerid!="78"&
+        d$workerid!="84"&
+        d$workerid!="85"&
+        d$workerid!="89"&
+        d$workerid!="90"
         ,]
 
-# remove item with typo
-f = e[e$item!="priest",]
+# remove item with typo -> no longer needed, typo fixed
+#f = e[e$item!="priest",]
 
 
 ## calculate averages and CIs by condition
-length(unique(f$workerid)) # 7
-d_s = bootsSummary(data=f, measurevar="response", groupvars=c("condition"))
+length(unique(e$workerid)) # 4
+d_s = bootsSummary(data=e, measurevar="response", groupvars=c("condition"))
 
 ## plot results
 ggplot(data=d_s,aes(x=condition,y=response))+
