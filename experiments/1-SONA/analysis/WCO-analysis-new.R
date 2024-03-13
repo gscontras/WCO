@@ -6,8 +6,18 @@ setwd("/Users/katherine/Desktop/Maryland/WCO/experiments/1-SONA/analysis")
 source("helpers.r")
 
 ## load full data file
-df = read.csv("sentence_rating_sona-merged-new.csv",header=T)
-length(unique(df$workerid)) # 35
+df_s = read.csv("sentence_rating_sona-merged-new.csv",header=T)
+d_s = subset(df_s, select = c("workerid","WCO","animacy","condition","determiner","item","response","slide_number","trial_type","subject_information.assess","subject_information.gender","subject_information.age","subject_information.language","time_in_minutes"))
+d_s$unique_worker = paste("S",d_s$workerid)
+df_e = read.csv("sentence_rating_external-merged-ANONYMOUS.csv",header=T)
+d_e = subset(df_e, select = c("workerid","WCO","animacy","condition","determiner","item","response","slide_number","trial_type","subject_information.assess","subject_information.gender","subject_information.age","subject_information.language","time_in_minutes"))
+d_e$unique_worker = paste("E",d_e$workerid)
+
+df = rbind(d_s,d_e)
+
+df = df[df$item!="pianist"&df$item!="scientist",]
+
+length(unique(df$workerid)) # 82
 
 ## filter participants by language
 unique(df$subject_information.language)
@@ -16,7 +26,7 @@ d = df[df$subject_information.language=="English"|
        df$subject_information.language=="english"|
        df$subject_information.language=="english "
        ,]
-length(unique(d$workerid)) # 22
+length(unique(d$workerid)) # 42
 
 # filler check
 d$filler_type = NA
@@ -43,7 +53,7 @@ for(i in unique(as.factor(e$workerid))) {
   }
 }
 
-length(unique(e$workerid)) # 14
+length(unique(e$workerid)) # 28
 
 ## only critical trials
 t = e[e$condition!="filler"&e$condition!="",]
@@ -53,10 +63,10 @@ t = e[e$condition!="filler"&e$condition!="",]
 d_s = bootsSummary(data=t, measurevar="response", groupvars=c("WCO","animacy","determiner"))
 
 ## plot results
-ggplot(data=d_s,aes(x=WCO,y=response,fill=animacy))+
+ggplot(data=d_s,aes(x=WCO,y=response,fill=determiner))+
   geom_bar(stat="identity",position=position_dodge(.9),color="black")+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=WCO, width=0.25),alpha=1,position=position_dodge(.9))+
-  facet_grid(.~determiner)+
+  facet_grid(.~animacy) +
   theme_bw()
 
 
@@ -67,22 +77,30 @@ m = lmer(response~WCO*determiner*animacy+(1|item)+(1|workerid), data=t)
 summary(m)
 
 
+## calculate averages and CIs by condition
+d_s_no_animacy = bootsSummary(data=t, measurevar="response", groupvars=c("WCO","determiner"))
+
+## plot results
+ggplot(data=d_s_no_animacy,aes(x=WCO,y=response,fill=determiner))+
+  geom_bar(stat="identity",position=position_dodge(.9),color="black")+
+  geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=WCO, width=0.25),alpha=1,position=position_dodge(.9))+
+  theme_bw()
 
 
 
 
 
 
-f = matrix(unique(as.factor(e$workerid)), ncol = 1)
+f = matrix(unique(as.factor(t$unique_worker)), ncol = 1)
 f = as.data.frame(f)
 
 colnames(f)[1] <- "workerid"
 f$N_avg = 0
 f$Y_avg = 0
 
-for (i in unique(as.factor(e$workerid))){
-  f[f$workerid == i,]$N_avg = mean(e[e$workerid == i & (e$condition == "NDA" | e$condition == "NDI" | e$condition == "NQA" | e$condition == "NQI"),]$response)
-  f[f$workerid == i,]$Y_avg = mean(e[e$workerid == i & (e$condition == "YDA" | e$condition == "YDI" | e$condition == "YQA" | e$condition == "YQI"),]$response)
+for (i in unique(as.factor(t$unique_worker))){
+  f[f$workerid == i,]$N_avg = mean(t[t$unique_worker == i & (t$WCO=="N"),]$response)
+  f[f$workerid == i,]$Y_avg = mean(t[t$unique_worker == i & (t$WCO=="Y"),]$response)
   }
 
 f$avgDiff = f$N_avg - f$Y_avg
