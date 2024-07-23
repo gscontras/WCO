@@ -1,0 +1,10 @@
+priestxconfig = 
+{itemtype: "test",
+YQA: {story: "Las monjas están emparejadas con ciertos sacerdotes. Algunas monjas fueron promovidas por su sacerdote y otras no lo fueron.", sentence: "Cada monja a quien su sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+YQI: {story: "Los sermones son impartidos por ciertos sacerdotes. Algunos sermones fueron promovidos por su sacerdote, y otros no lo fueron.", sentence: "Cada sermón que su sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+YDA: {story: "Las monjas están emparejadas con ciertos sacerdotes. Una monja fue promovida por su sacerdote, y otra no lo fue.", sentence: "La monja a quien su sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+YDI: {story: "Los sermones son impartidos por ciertos sacerdotes. Un sermón fue promovido por su sacerdote, y otro no lo fue.", sentence: "El sermón que su sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+NQA: {story: "Hay un sacerdote en particular. Algunas monjas fueron promovidas por ese sacerdote y otras no lo fueron.", sentence: "Cada monja a quien el sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+NQI: {story: "Hay un sacerdote en particular. Algunos sermones fueron promovidos por ese sacerdote, y otros no lo fueron.", sentence: "Cada sermón que el sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+NDA: {story: "Hay un cierto sacerdote. Una monja fue promovida por ese sacerdote, y otra no lo fue.", sentence: "La monja a quien el sacerdote promovió fue una inspiración para muchas personas.", item: "priest"},
+NDI: {story: "Hay un sacerdote en particular. Un sermón fue promovido por ese sacerdote, y otro no lo fue.", sentence: "El sermón que el sacerdote promovió fue una inspiración para muchas personas.", item: "priest"}}

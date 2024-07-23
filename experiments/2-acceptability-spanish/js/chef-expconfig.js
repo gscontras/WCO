@@ -1,0 +1,10 @@
+chefxconfig = 
+{itemtype: "test",
+YQA: {story: "Las encargadas del almuerzo están emparejadas con los chefs. Algunas encargadas del almuerzo fueron recomendadas por su chef, y otras no lo fueron.", sentence: "Cada cocinera a quien su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+YQI: {story: "Los almuerzos escolares son preparados por ciertos chefs. Algunos almuerzos escolares fueron recomendados por su chef, y otros no lo fueron.", sentence: "Cada almuerzo escolar que su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+YDA: {story: "Las encargadas del almuerzo están emparejadas con los chefs. Una encargada del almuerzo fue recomendada por su chef, y otra no lo fue.", sentence: "La cocinera a quien su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+YDI: {story: "Los almuerzos escolares son preparados por ciertos chefs. Un almuerzo escolar fue recomendado por su chef, y otro no lo fue.", sentence: "El almuerzo escolar que el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+NQA: {story: "Hay un chef en particular. Algunas encargadas del almuerzo fueron recomendadas por ese chef, y otras no lo fueron.", sentence: "Cada mujer de la cocina a la que el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+NQI: {story: "Hay un cierto chef. Algunos almuerzos escolares fueron recomendados por ese chef, y otros no lo fueron.", sentence: "Cada almuerzo escolar que el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+NDA: {story: "Hay un cierto chef. Una de las señoras de los almuerzos fue recomendada por ese chef, y otra no lo fue.", sentence: "La señora del almuerzo a quien el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+NDI: {story: "Hay un chef en particular. Un almuerzo escolar fue recomendado por ese chef, y otro no lo fue.", sentence: "El almuerzo escolar que el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"}}

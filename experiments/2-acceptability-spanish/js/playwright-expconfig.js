@@ -1,0 +1,10 @@
+playwrightxconfig = 
+{itemtype: "test",
+YQA: {story: "Los directores trabajan con ciertos dramaturgos. Algunos directores fueron dirigidos por su dramaturgo, y otros no lo fueron.", sentence: "Cada director a quien su dramaturga se dirigió en la reunión necesitaba considerable ayuda.", item: "playwright"},
+YQI: {story: "Los guiones son escritos por ciertos dramaturgos. Algunos guiones fueron enfocados por su dramaturgo, y otros no lo fueron.", sentence: "Cada guion que su dramaturga se enfocó en la reunión necesitaba considerable ayuda.", item: "playwright"},
+YDA: {story: "Los directores trabajan con ciertos dramaturgos. Un director fue dirigido por su dramaturgo, y otros no lo fueron.", sentence: "El director a quien su dramaturga se dirigió en la reunión necesitaba considerable ayuda.", item: "playwright"},
+YDI: {story: "Los guiones son escritos por ciertos dramaturgos. Un guión fue enfocado por su dramaturgo, y otros no lo fueron.", sentence: "El guion que su dramaturga se enfocó en la reunión necesitaba considerable ayuda.", item: "playwright"},
+NQA: {story: "Hay cierto dramaturgo. Algunos directores fueron dirigidos por el dramaturgo, y otros no.", sentence: "Cada director a quien la dramaturga se dirigió en la reunión necesitaba considerable ayuda.", item: "playwright"},
+NQI: {story: "Hay un dramaturgo en particular. Algunos guiones fueron enfocados por el dramaturgo, y otros no.", sentence: "Cada guion que la dramaturga se enfocó en la reunión necesitaba considerable ayuda.", item: "playwright"},
+NDA: {story: "Hay un dramaturgo en particular. Un director fue dirigido por su dramaturgo, y otros no lo fueron.", sentence: "El director a quien la dramaturga se dirigió en la reunión necesitaba considerable ayuda.", item: "playwright"},
+NDI: {story: "Hay un dramaturgo en particular. Un guión fue enfocado por su dramaturgo, y otros no lo fueron.", sentence: "El guion que la dramaturga se enfocó en la reunión necesitaba considerable ayuda.", item: "playwright"}}

@@ -1,0 +1,10 @@
+supervisorxconfig = 
+{itemtype: "test",
+YQA: {story: "Las mujeres policía son emparejadas con ciertos supervisores. Algunas mujeres policía fueron observadas por su supervisor, y otras no.", sentence: "Cada mujer policía que su supervisor observaba en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+YQI: {story: "Las computadoras son utilizadas por ciertos supervisores. Algunas computadoras fueron observadas por su supervisor, y otras no.", sentence: "Cada computadora que su supervisor observaba en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+YDA: {story: "Las mujeres policía son emparejadas con ciertos supervisores. Una mujer policía fue observada por su supervisor, y otra no.", sentence: "La mujer policía que su supervisor observó en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+YDI: {story: "Las computadoras son utilizadas por ciertos supervisores. Una computadora fue observada por su supervisor, y otra no.", sentence: "La computadora que su supervisor observó en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+NQA: {story: "Hay un supervisor en particular. Algunas mujeres policía fueron observadas por ese supervisor, y otras no.", sentence: "Cada mujer policía que el supervisor observó en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+NQI: {story: "Hay un supervisor en particular. Algunas computadoras fueron observadas por ese supervisor, y otras no.", sentence: "Cada computadora que el supervisor observó en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+NDA: {story: "Hay un supervisor en particular. Una mujer policía fue observada por ese supervisor, y otra no.", sentence: "La mujer policía que el supervisor observó en la comisaría estaba a la altura del trabajo.", item: "supervisor"},
+NDI: {story: "Hay un supervisor en particular. Una computadora fue observada por ese supervisor, y otra no.", sentence: "La computadora que el supervisor observó en la comisaría estaba a la altura del trabajo.", item: "supervisor"}}

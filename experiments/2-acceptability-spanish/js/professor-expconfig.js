@@ -1,0 +1,10 @@
+professorxconfig = 
+{itemtype: "test",
+YQA: {story: "Los estudiantes tienen ciertos profesores. Algunos estudiantes fueron presentados ante la facultad por su profesor, y otros no lo fueron.", sentence: "Cada estudiante que su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+YQI: {story: "Los manuscritos son escritos por ciertos profesores. Algunos manuscritos fueron presentados ante la facultad por su profesor, y otros no lo fueron.", sentence: "Cada manuscrito que su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+YDA: {story: "Los estudiantes tienen ciertos profesores. Un estudiante fue presentado ante la facultad por su profesor, y otro no lo fue.", sentence: "La estudiante a quien su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+YDI: {story: "Los manuscritos son escritos por ciertos profesores. Un manuscrito fue presentado ante la facultad por su profesor, y otro no lo fue.", sentence: "El manuscrito que su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+NQA: {story: "Hay un cierto profesor. Algunos estudiantes fueron presentados ante la facultad por el profesor, y otros no lo fueron.", sentence: "Cada estudiante que el profesor presentó ante la facultad influenció al decano.", item: "professor"},
+NQI: {story: "Hay un cierto profesor. Algunos manuscritos fueron presentados ante la facultad por el profesor, y otros no lo fueron.", sentence: "Cada manuscrito que el profesor presentó ante la facultad influenció al decano.", item: "professor"},
+NDA: {story: "Hay un cierto profesor. Un estudiante fue presentado ante la facultad por el profesor, y otro no lo fue.", sentence: "El estudiante que el profesor presentó ante la facultad influenció al decano.", item: "professor"},
+NDI: {story: "Hay un cierto profesor. Un manuscrito fue presentado ante la facultad por el profesor, y otro no lo fue.", sentence: "El manuscrito que el profesor presentó ante la facultad influenció al decano.", item: "professor"}}

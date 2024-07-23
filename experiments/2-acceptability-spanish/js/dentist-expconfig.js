@@ -1,0 +1,10 @@
+dentistxconfig = 
+{itemtype: "test",
+YQA: {story: "Los asistentes sirven a ciertos dentistas. Algunos asistentes fueron seleccionados por su dentista, y otros no.", sentence: "Cada asistente que su dentista seleccionaba para ayudar con el procedimiento estresaba al paciente.", item: "dentist"},
+YQI: {story: "Los dentistas utilizan ciertas herramientas. Algunas herramientas fueron seleccionadas por su dentista, y otras no.", sentence: "Cada herramienta que su dentista seleccionaba para ayudar con el procedimiento estresaba al paciente.", item: "dentist"},
+YDA: {story: "Los asistentes sirven a ciertos dentistas. Una asistente fue seleccionada por su dentista, y otra no lo fue.", sentence: "La asistente que su dentista seleccionó para ayudar con el procedimiento estresó al paciente.", item: "dentist"},
+YDI: {story: "Los dentistas utilizan ciertas herramientas. Una herramienta fue seleccionada por su dentista, y otra no lo fue.", sentence: "La herramienta que su dentista seleccionó para ayudar con el procedimiento estresó al paciente.", item: "dentist"},
+NQA: {story: "Hay un cierto dentista. Algunas asistentes fueron seleccionadas por ese dentista, y otras no.", sentence: "Cada asistente que el dentista seleccionó para ayudar con el procedimiento estresó al paciente.", item: "dentist"},
+NQI: {story: "Hay un cierto dentista. Algunas herramientas fueron seleccionadas por ese dentista, y otras no.", sentence: "Cada herramienta que el dentista seleccionó para ayudar con el procedimiento estresó al paciente.", item: "dentist"},
+NDA: {story: "Hay un dentista en particular. Una asistente fue seleccionada por ese dentista, y otra no lo fue.", sentence: "La asistente que el dentista seleccionó para ayudar con el procedimiento estresó al paciente.", item: "dentist"},
+NDI: {story: "Hay un cierto dentista. Una herramienta fue seleccionada por ese dentista, y otra no lo fue.", sentence: "La herramienta que el dentista seleccionó para ayudar con el procedimiento estresó al paciente.", item: "dentist"}}

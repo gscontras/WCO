@@ -1,0 +1,10 @@
+choreographerxconfig = 
+{itemtype: "test",
+YQA: {story: "Las bailarinas son ayudadas por ciertos coreógrafos. Algunas bailarinas fueron discutidas en la fiesta por su coreógrafo, y otras no.", sentence: "Cada bailarina de la que su coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+YQI: {story: "Los ballets son estudiados por ciertos coreógrafos. Algunos ballets fueron discutidos en la fiesta por su coreógrafo, y otros no.", sentence: "Cada ballet del que su coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+YDA: {story: "Las bailarinas son ayudadas por ciertos coreógrafos. Una bailarina fue discutida en la fiesta por su coreógrafo, y otra no.", sentence: "La bailarina de la que su coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+YDI: {story: "Los ballets son estudiados por ciertos coreógrafos. Un ballet fue discutido en la fiesta por su coreógrafo, y otro no.", sentence: "El ballet del que su coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+NQA: {story: "Hay un cierto coreógrafo. Algunas bailarinas fueron discutidas en la fiesta por ese coreógrafo, y otras no.", sentence: "Cada bailarina de la que el coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+NQI: {story: "Hay un cierto coreógrafo. Algunos ballets fueron discutidos en la fiesta por ese coreógrafo, y otros no.", sentence: "Cada ballet del que el coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+NDA: {story: "Hay un cierto coreógrafo. Una bailarina fue discutida en la fiesta por ese coreógrafo, y otra no.", sentence: "La bailarina de la que el coreógrafo habló en la fiesta nunca tuvo un debut.", item: "choreographer"},
+NDI: {story: "Hay un cierto coreógrafo. Un ballet fue discutido en la fiesta por ese coreógrafo, y otro no.", sentence: "El ballet que el coreógrafo discutió en la fiesta nunca tuvo un debut.", item: "choreographer"}}

@@ -1,0 +1,10 @@
+pianistxconfig = 
+{itemtype: "test",
+YQA: {story: "Los cantantes interpretan con ciertos pianistas. Algunos cantantes fueron escuchados durante el ensayo por su pianista, y otros no.", sentence: "Cada cantante que su pianista escuchó durante el ensayo sonaba hermoso.", item: "pianist"},
+YQI: {story: "Las guitarras se emparejan con ciertos pianistas. Algunas guitarras fueron escuchadas durante el ensayo por su pianista, y otras no.", sentence: "Cada piano que su pianista escuchó durante el ensayo sonaba hermoso.", item: "pianist"},
+YDA: {story: "Los cantantes interpretan con ciertos pianistas. Una cantante fue escuchada durante el ensayo por su pianista, y otra no.", sentence: "La cantante a quien su pianista escuchó durante el ensayo sonaba hermosa.", item: "pianist"},
+YDI: {story: "Las guitarras se emparejan con ciertos pianistas. Una guitarra fue escuchada durante el ensayo por su pianista, y otra no.", sentence: "El piano que su pianista escuchó durante el ensayo sonaba hermoso.", item: "pianist"},
+NQA: {story: "Hay un pianista en particular. Algunos cantantes fueron escuchados durante el ensayo por ese pianista, y otros no.", sentence: "Cada cantante que el pianista escuchó durante el ensayo sonaba hermoso.", item: "pianist"},
+NQI: {story: "Hay un pianista en particular. Algunas guitarras fueron escuchadas durante el ensayo por ese pianista, y otras no.", sentence: "Cada piano que el pianista escuchó durante el ensayo sonaba hermoso.", item: "pianist"},
+NDA: {story: "Hay un pianista en particular. Un cantante fue escuchado durante el ensayo por ese pianista, y otro no.", sentence: "La cantante que el pianista escuchó durante el ensayo sonaba hermosa.", item: "pianist"},
+NDI: {story: "Hay un pianista en particular. Una guitarra fue escuchada durante el ensayo por ese pianista, y otra no.", sentence: "El piano que el pianista escuchó durante el ensayo sonaba hermoso.", item: "pianist"}}

@@ -1,0 +1,10 @@
+bartenderxconfig = 
+{itemtype: "test",
+YQA: {story: "Las camareras trabajan con ciertos bartenders. Algunas camareras fueron felicitadas por su bartender el viernes, y otras no lo fueron.", sentence: "Cada mesera a quien su bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+YQI: {story: "Los cócteles son preparados por ciertos bartenders. Algunos cócteles fueron elogiados por su bartender el viernes, y otros no lo fueron.", sentence: "Cada cóctel que su bartender elogió el viernes impresionó a los clientes.", item: "bartender"},
+YDA: {story: "Las camareras trabajan con ciertos bartenders. Una camarera fue felicitada por su bartender el viernes, y otra no lo fue.", sentence: "La camarera a quien su bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+YDI: {story: "Los cócteles son preparados por ciertos bartenders. Un cóctel fue elogiado por su bartender el viernes, y otro no lo fue.", sentence: "El cóctel que su bartender elogió el viernes impresionó a los clientes.", item: "bartender"},
+NQA: {story: "Hay un cierto bartender. Algunas camareras fueron felicitadas por ese bartender el viernes, y otras no lo fueron.", sentence: "Cada camarera a quien el bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+NQI: {story: "Hay un cierto bartender. Algunos cócteles fueron elogiados por ese bartender el viernes, y otros no lo fueron.", sentence: "Cada cóctel que el bartender elogió el viernes impresionó a los clientes.", item: "bartender"},
+NDA: {story: "Hay un cierto bartender. Una camarera fue felicitada por ese bartender el viernes, y otra no lo fue.", sentence: "La camarera a quien el bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+NDI: {story: "Hay un cierto bartender. Un cóctel fue elogiado por ese bartender el viernes, y otro no lo fue.", sentence: "El cóctel que el bartender elogió el viernes impresionó a los clientes.", item: "bartender"}}

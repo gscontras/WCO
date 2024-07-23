@@ -1,0 +1,10 @@
+fanxconfig = 
+{itemtype: "test",
+YQA: {story: "Las actrices tienen ciertos fanáticos número uno. Algunas actrices fueron elogiadas en Twitter por su fanático, y otras no.", sentence: "Cada actriz que su fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+YQI: {story: "Las actuaciones tienen ciertos fanáticos número uno. Algunas actuaciones fueron elogiadas en Twitter por su fanático, y otras no.", sentence: "Cada actuación que su fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+YDA: {story: "Las actrices tienen ciertos fanáticos número uno. Una actriz fue elogiada en Twitter por su fanático, y otra no.", sentence: "La actriz a quien su fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+YDI: {story: "Las actuaciones tienen ciertos fanáticos número uno. Una actuación fue elogiada en Twitter por su fanático, y otra no.", sentence: "La actuación que su fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+NQA: {story: "Hay un cierto fanático número uno. Algunas actrices fueron elogiadas en Twitter por ese fanático, y otras no.", sentence: "Cada actriz que el fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+NQI: {story: "Hay un cierto fanático número uno. Algunas actuaciones fueron elogiadas en Twitter por ese fanático, y otras no.", sentence: "Cada actuación que el fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+NDA: {story: "Hay un cierto fanático número uno. Una actriz fue elogiada en Twitter por ese fanático, y otra no.", sentence: "La actriz a quien el fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"},
+NDI: {story: "Hay un cierto fanático número uno. Una actuación fue elogiada en Twitter por ese fanático, y otra no.", sentence: "La actuación que el fanático número uno alabó en Twitter fue nominada para un premio.", item: "fan"}}

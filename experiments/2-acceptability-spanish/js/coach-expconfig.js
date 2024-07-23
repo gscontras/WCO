@@ -1,0 +1,10 @@
+coachxconfig = 
+{itemtype: "test",
+YQA: {story: "Las gimnastas son instruidas por ciertos entrenadores. Algunas gimnastas fueron criticadas por su entrenador, y otras no.", sentence: "Cada gimnasta a quien su entrenador criticó no logró clasificar para nacionales.", item: "coach"},
+YQI: {story: "Las rutinas son supervisadas por ciertos entrenadores. Algunas rutinas fueron criticadas por su entrenador, y otras no.", sentence: "Cada rutina que su entrenador criticó no logró calificar para nacionales.", item: "coach"},
+YDA: {story: "Las gimnastas son instruidas por ciertos entrenadores. Una gimnasta fue criticada por su entrenador, y otra no.", sentence: "La gimnasta a quien su entrenador criticó no logró calificar para nacionales.", item: "coach"},
+YDI: {story: "Las rutinas son supervisadas por ciertos entrenadores. Una rutina fue criticada por su entrenador, y otra no.", sentence: "La rutina que su entrenador criticó no logró calificar para nacionales.", item: "coach"},
+NQA: {story: "Hay un cierto entrenador. Algunas gimnastas fueron criticadas por ese entrenador, y otras no.", sentence: "Cada gimnasta que el entrenador criticó no logró calificar para nacionales.", item: "coach"},
+NQI: {story: "Hay un cierto entrenador. Algunas rutinas fueron criticadas por ese entrenador, y otras no.", sentence: "Cada rutina que el entrenador criticó no logró calificar para nacionales.", item: "coach"},
+NDA: {story: "Hay un cierto entrenador. Una gimnasta fue criticada por ese entrenador, y otra no.", sentence: "La gimnasta a quien el entrenador criticó no logró calificar para nacionales.", item: "coach"},
+NDI: {story: "Hay un cierto entrenador. Una rutina fue criticada por ese entrenador, y otra no.", sentence: "La rutina que el entrenador criticó no logró calificar para nacionales.", item: "coach"}}
