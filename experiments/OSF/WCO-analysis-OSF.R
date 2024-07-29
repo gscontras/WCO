@@ -1,9 +1,42 @@
-## set working directory
-#setwd("~/git/WCO/experiments/1-SONA/analysis/")
-setwd("/Users/katherine/Desktop/Maryland/WCO/experiments/1-SONA/analysis")
+library(lme4)
+library(ggplot2)
+library(reshape2)
+library(lmerTest)
+library(bootstrap)
 
 ## load helper file for bootstrapped CIs
-source("helpers.r")
+bootsSummary <- function(data=NULL, measurevar, groupvars=NULL, na.rm=FALSE,
+                         conf.interval=.95, .drop=TRUE, n_boots_samps=10000) {
+  require(plyr)
+  
+  # New version of length which can handle NA's: if na.rm==T, don't count them
+  length2 <- function (x, na.rm=FALSE) {
+    if (na.rm) sum(!is.na(x))
+    else       length(x)
+  }
+  
+  # This does the summary. For each group's data frame, return a vector with
+  # N, mean, and sd
+  datac <- ddply(data, groupvars, .drop=.drop,
+                 .fun = function(xx, col) {
+                   c(N    = length2(xx[[col]], na.rm=na.rm),
+                     mean = mean   (xx[[col]], na.rm=na.rm),
+                     bootsci_high = quantile( #doesn't play nice with na.rm
+                       replicate(n_boots_samps, mean(sample(xx[[col]], replace = TRUE))),
+                       c(0.025, 0.975))[["97.5%"]],
+                     bootsci_low = quantile( #doesn't play nice with na.rm
+                       replicate(n_boots_samps, mean(sample(xx[[col]], replace = TRUE))),
+                       c(0.025, 0.975))[["2.5%"]]
+                   )
+                 },
+                 measurevar
+  )
+  
+  # Rename the "mean" column    
+  datac <- rename(datac, c("mean" = measurevar))
+  
+  return(datac)
+}
 
 ## load full data file
 df = read.csv("raw-data-anonymous.csv",header=T)
@@ -12,10 +45,10 @@ df = df[df$item!="pianist"&df$item!="scientist",]
 
 full <- df
 
-length(unique(full$workerid)) # 233 total including Katherine
+length(unique(full$workerid)) # 233 total 
 
 df = df[df$subject_information.language!="katherine",]
-length(unique(df$workerid)) # 230 total without Greg or Katherine
+length(unique(df$workerid)) # 230 total without experimenter test runs
 
 ## filter participants by language
 unique(df$subject_information.language)
@@ -36,8 +69,6 @@ d[d$item == "filler4" |
     d$item == "filler5" |
     d$item == "filler6",]$filler_type = "bad"
 d$filler_check = NA
-
-aggregate(response~item*filler_type*workerid,data=d,FUN=mean)
 
 d$filler_correct = 0
 d[d$condition=="filler" & d$filler_type=="good" & d$response>=0.50,]$filler_correct = 1
@@ -72,15 +103,18 @@ ggplot(data=d_s,aes(x=WCO,y=response,fill=determiner))+
   theme_bw() + 
   ylab("rating\n") +
   scale_fill_manual(values = c("D" = "gray90", "Q" = "gray65"),
-                    labels = c("D" = "determiner", "Q" = "quantifier")) +
+                    labels = c("D" = "R-expression", "Q" = "quantifier")) +
   labs(x = NULL, fill = NULL)
 #ggsave("full-results.png",width=5.5,height=2)
 
 ## fit a linear mixed-effects model
-library(lme4)
-library(lmerTest)
 m = lmer(response~WCO*determiner*animacy+(1|item)+(1|workerid), data=t)
 summary(m)
+
+# aggregate responses by WCO
+aggregate(response~WCO, data=t, FUN=mean)
+
+aggregate(response~filler_type, data=e[e$condition=="filler",], FUN=mean)
 
 ## histogram of participants
 
