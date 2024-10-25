@@ -1,5 +1,3 @@
 filler3xconfig = 
 {itemtype: "filler",
-
-filler: {story: "There is a certain student. Some lectures were attended by that student, and others were not.", sentence: "Every lecture that the student attended on Monday started five minutes early.", item: "filler3"}
-}
+filler: {story: "Hay un cierto estudiante. Algunas conferencias fueron escuchadas por ese estudiante, y otras no.", sentence: "Cada conferencia que el estudiante escuchó el lunes empezó cinco minutos tarde.", item: "filler3"}}

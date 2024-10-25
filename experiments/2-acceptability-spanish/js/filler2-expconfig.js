@@ -1,5 +1,3 @@
 filler2xconfig = 
 {itemtype: "filler",
-
-filler: {story: "There is a certain manicurist. Some women were met by that manicurist, and others were not.", sentence: "Every woman who the manicurist met at the salon wanted red nails.", item: "filler2"}
-}
+filler: {story: "Hay una cierta manicurista. Algunas mujeres fueron atendidas por esa manicurista, y otras no.", sentence: "Cada mujer que la manicurista conoció en el salón quería uñas rojas.", item: "filler2"}}

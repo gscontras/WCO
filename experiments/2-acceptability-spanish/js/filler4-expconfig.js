@@ -1,5 +1,3 @@
 filler4xconfig = 
 {itemtype: "filler",
-
-filler: {story: "There is a certain artist. Some calligraphers were spoken with by that artist, and others were not.", sentence: "Every calligrapher the who artist spoke had beautiful handwriting.", item: "filler4"}
-}
+filler: {story: "Hay un cierto artista. Algunos calígrafos fueron elogiados por ese artista, y otros no.", sentence: "Cada calígrafo quien a elogió el artista tenían una escritura hermosa.", item: "filler4"}}
