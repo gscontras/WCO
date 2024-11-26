@@ -1,0 +1,10 @@
+chefxconfig = 
+{itemtype: "test",
+yQa: {story: "Las encargadas del almuerzo están emparejadas con los chefs. Algunas encargadas del almuerzo fueron recomendadas por su chef, y otras no.", sentence: "Cada encargada del almuerzo a quien su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+yDa: {story: "Las encargadas del almuerzo están emparejadas con los chefs. Una encargada del almuerzo fue recomendada por su chef, y otra no.", sentence: "La encargada del almuerzo a quien su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+nQa: {story: "Hay un chef en particular. Algunas encargadas del almuerzo fueron recomendadas por ese chef, y otras no.", sentence: "Cada encargada del almuerzo a quien el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+nDa: {story: "Hay un cierto chef. Una de las encargadas del almuerzo fue recomendada por ese chef, y otra no.", sentence: "La encargada del almuerzo a quien el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+yQq: {story: "Las encargadas del almuerzo están emparejadas con los chefs. Algunas encargadas del almuerzo fueron recomendadas por su chef, y otras no.", sentence: "Cada encargada del almuerzo que su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+yDq: {story: "Las encargadas del almuerzo están emparejadas con los chefs. Una encargada del almuerzo fue recomendada por su chef, y otra no.", sentence: "La encargada del almuerzo que su chef recomendaba con entusiasmo deleitaba a los estudiantes.", item: "chef"},
+nQq: {story: "Hay un chef en particular. Algunas encargadas del almuerzo fueron recomendadas por ese chef, y otras no.", sentence: "Cada encargada del almuerzo que el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"},
+nDq: {story: "Hay un cierto chef. Una de las encargadas del almuerzo fue recomendada por ese chef, y otra no.", sentence: "La encargada del almuerzo que el chef recomendó con entusiasmo deleitó a los estudiantes.", item: "chef"}}

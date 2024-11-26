@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------
+Name: 2-acceptability-spanish
+Notes: Spanish WCO experiment for web dissemination
+Created at: 2024-07-23 11:07 AM
+Prolific completion URL: https://bayes.langsci.uci.edu/meaninglab/WCO/2-acceptability-spanish/completed-thankyou.html
+  (Participants will be redirected to this URL after completing the experiment.
+  Make sure that this URL matches the completion URL of your study on Prolific.)
+
+
+Study URL: https://proliferate.alps.science/experiment/a1f2c768-69cd-4649-a491-2f0de1b285cf
+  (Use this URL to publish your study on Prolific.)
+
+Sandbox URL: https://proliferate.alps.science/experiment/a1f2c768-69cd-4649-a491-2f0de1b285cf/debug
+  (Use this URL to test your experiment using the "Preview" function on Prolific.)
+
+Progress: 0 completed (0 started, 0 completed, 0 abandoned, ∞ requested)
+Experiment location: https://bayes.langsci.uci.edu/meaninglab/WCO/2-acceptability-spanish/WCO-acceptability-spanish.html
+--------------------------------------------------------------------------------
+
+(base) dhcp-x160180:2-acceptability-spanish greg$ cd ../3-acceptability-spanish/
+(base) dhcp-x160180:3-acceptability-spanish greg$ proliferate post 3-acceptability-spanish
+--------------------------------------------------------------------------------
+Successfully created experiment!
+Loading info...
+--------------------------------------------------------------------------------
+Name: 3-acceptability-spanish
+Notes: Spanish WCO experiment for web dissemination
+Created at: 2024-10-25 10:59 AM
+Prolific completion URL: https://app.prolific.com/submissions/complete?cc=C1Z56PAR
+  (Participants will be redirected to this URL after completing the experiment.
+  Make sure that this URL matches the completion URL of your study on Prolific.)
+
+
+Study URL: https://proliferate.alps.science/experiment/bbcc82df-3a3d-43bc-8414-1a37d25aabe4
+  (Use this URL to publish your study on Prolific.)
+
+Sandbox URL: https://proliferate.alps.science/experiment/bbcc82df-3a3d-43bc-8414-1a37d25aabe4/debug
+  (Use this URL to test your experiment using the "Preview" function on Prolific.)
+
+Progress: 0 completed (0 started, 0 completed, 0 abandoned, ∞ requested)
+Experiment location: https://bayes.langsci.uci.edu/meaninglab/WCO/3-acceptability-spanish/WCO-acceptability-spanish.html
+--------------------------------------------------------------------------------
+
+
+Polific preview link:
+https://bayes.langsci.uci.edu/meaninglab/WCO/3-acceptability-spanish/WCO-acceptability-spanish.html?participant_id=5141e212-18ae-4729-8079-507862c641ae&experiment_id=bbcc82df-3a3d-43bc-8414-1a37d25aabe4

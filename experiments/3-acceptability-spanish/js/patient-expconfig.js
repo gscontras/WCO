@@ -1,0 +1,10 @@
+patientxconfig = 
+{itemtype: "test",
+yQa: {story: "Las parteras están asignadas a ciertas pacientes. Algunas parteras fueron solicitadas por su paciente, y otras no.", sentence: "Cada partera a quien su paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+yDa: {story: "Las parteras están asignadas a ciertas pacientes. Una partera fue solicitada por su paciente, y otra no.", sentence: "La partera a quien su paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+nQa: {story: "Hay una cierta paciente. Algunas parteras fueron solicitadas por esa paciente, y otras no.", sentence: "Cada partera a quien la paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+nDa: {story: "Hay una cierta paciente. Una partera fue solicitada por esa paciente, y otra no.", sentence: "La partera a quien la paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+yQq: {story: "Las parteras están asignadas a ciertas pacientes. Algunas parteras fueron solicitadas por su paciente, y otras no.", sentence: "Cada partera que su paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+yDq: {story: "Las parteras están asignadas a ciertas pacientes. Una partera fue solicitada por su paciente, y otra no.", sentence: "La partera que su paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+nQq: {story: "Hay una cierta paciente. Algunas parteras fueron solicitadas por esa paciente, y otras no.", sentence: "Cada partera que la paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"},
+nDq: {story: "Hay una cierta paciente. Una partera fue solicitada por esa paciente, y otra no.", sentence: "La partera que la paciente solicitó fue útil para aliviar algo del dolor.", item: "patient"}}

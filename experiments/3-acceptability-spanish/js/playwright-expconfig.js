@@ -1,0 +1,10 @@
+playwrightxconfig = 
+{itemtype: "test",
+yQa: {story: "Los directores trabajan con ciertos dramaturgos. Algunos directores fueron criticados por su dramaturgo, y otros no.", sentence: "Cada director a quien su dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+yDa: {story: "Los directores trabajan con ciertos dramaturgos. Un director fue criticado por su dramaturgo, y otro no.", sentence: "El director a quien su dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+nQa: {story: "Hay cierto dramaturgo. Algunos directores fueron criticados por el dramaturgo, y otros no.", sentence: "Cada director a quien el dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+nDa: {story: "Hay un dramaturgo en particular. Un director fue criticado por su dramaturgo, y otro no.", sentence: "El director a quien el dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+yQq: {story: "Los directores trabajan con ciertos dramaturgos. Algunos directores fueron criticados por su dramaturgo, y otros no.", sentence: "Cada director que su dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+yDq: {story: "Los directores trabajan con ciertos dramaturgos. Un director fue criticado por su dramaturgo, y otro no.", sentence: "El director que su dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+nQq: {story: "Hay cierto dramaturgo. Algunos directores fueron criticados por el dramaturgo, y otros no.", sentence: "Cada director que el dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"},
+nDq: {story: "Hay un dramaturgo en particular. Un director fue criticado por su dramaturgo, y otro no.", sentence: "El director que el dramaturgo criticó en la reunión necesitaba mucha ayuda.", item: "playwright"}}

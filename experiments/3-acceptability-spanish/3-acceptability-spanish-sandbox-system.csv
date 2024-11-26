@@ -1,0 +1,6 @@
+workerid,proliferate.condition,Browser,OS,screenH,screenW,error
+15,condition1,Chrome,Mac,900,1440,
+5,condition1,Safari,Mac,1440,2560,
+23,condition1,Safari,Mac,1440,2560,
+6,condition1,Safari,Mac,1440,2560,
+20,condition1,Chrome,Mac,982,1512,

@@ -1,0 +1,10 @@
+bartenderxconfig = 
+{itemtype: "test",
+yQa: {story: "Las meseras trabajan con ciertos bartenders. Algunas meseras fueron felicitadas por su bartender el viernes, y otras no.", sentence: "Cada mesera a quien su bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+yDa: {story: "Las meseras trabajan con ciertos bartenders. Una mesera fue felicitada por su bartender el viernes, y otra no.", sentence: "La mesera a quien su bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+nQa: {story: "Hay un cierto bartender. Algunas meseras fueron felicitadas por ese bartender el viernes, y otras no.", sentence: "Cada mesera a quien el bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+nDa: {story: "Hay un cierto bartender. Una mesera fue felicitada por ese bartender el viernes, y otra no.", sentence: "La mesera a quien el bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+yQq: {story: "Las meseras trabajan con ciertos bartenders. Algunas meseras fueron felicitadas por su bartender el viernes, y otras no.", sentence: "Cada mesera que su bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+yDq: {story: "Las meseras trabajan con ciertos bartenders. Una mesera fue felicitada por su bartender el viernes, y otra no.", sentence: "La mesera que su bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+nQq: {story: "Hay un cierto bartender. Algunas meseras fueron felicitadas por ese bartender el viernes, y otras no.", sentence: "Cada mesera que el bartender felicitó el viernes impresionó a los clientes.", item: "bartender"},
+nDq: {story: "Hay un cierto bartender. Una mesera fue felicitada por ese bartender el viernes, y otra no.", sentence: "La mesera que el bartender felicitó el viernes impresionó a los clientes.", item: "bartender"}}

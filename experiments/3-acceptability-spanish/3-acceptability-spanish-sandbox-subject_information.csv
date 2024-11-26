@@ -1,0 +1,6 @@
+workerid,proliferate.condition,age,assess,classes,college,comments,describe,education,enjoyment,family,gender,language,level,lived,school,years,error
+15,condition1,40,Yes,yes,mostsem,,SpanEng,4,1,span,Male,spanish,int,neverlived,most,neverlived,
+5,condition1,,,,,Greg0,,-1,-1,,,Greg,,,,,
+23,condition1,,,,,GREG,,-1,-1,,,GREG,,,,,
+6,condition1,,,,,Greg2,,-1,-1,,,Greg,,,,,
+20,condition1,31,Yes,no,onesem,,otherL2,4,2,other,Male,francés,advanced,neverlived,small,neverlived,

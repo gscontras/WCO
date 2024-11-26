@@ -1,0 +1,10 @@
+travelagentxconfig = 
+{itemtype: "test",
+yQa: {story: "Los guías turísticos son respaldados por ciertos agentes de viajes. Algunos guías turísticos fueron respaldados por su agente de viajes, y otros no.", sentence: "Cada guía turístico a quien su agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+yDa: {story: "Los guías turísticos son respaldados por ciertos agentes de viajes. Un guía turístico fue respaldado por su agente de viajes, y otro no.", sentence: "El guía turístico a quien su agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+nQa: {story: "Hay un agente de viajes en particular. Algunos guías turísticos fueron respaldados por el agente de viajes, y otros no.", sentence: "Cada guía turístico a quien el agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+nDa: {story: "Hay un agente de viajes en particular. Un guía turístico fue respaldado por el agente de viajes, y otro no.", sentence: "El guía turístico a quien el agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+yQq: {story: "Los guías turísticos son respaldados por ciertos agentes de viajes. Algunos guías turísticos fueron respaldados por su agente de viajes, y otros no.", sentence: "Cada guía turístico que su agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+yDq: {story: "Los guías turísticos son respaldados por ciertos agentes de viajes. Un guía turístico fue respaldado por su agente de viajes, y otro no.", sentence: "El guía turístico que su agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+nQq: {story: "Hay un agente de viajes en particular. Algunos guías turísticos fueron respaldados por el agente de viajes, y otros no.", sentence: "Cada guía turístico que el agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"},
+nDq: {story: "Hay un agente de viajes en particular. Un guía turístico fue respaldado por el agente de viajes, y otro no.", sentence: "El guía turístico que el agente de viajes respaldó en un tweet tuvo mucho éxito.", item: "travelagent"}}

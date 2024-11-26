@@ -1,0 +1,10 @@
+groomxconfig = 
+{itemtype: "test",
+yQa: {story: "Las novias están emocionadas de casarse con ciertos novios. Algunas novias fueron llevadas al altar por su novio, y otras no.", sentence: "Cada novia a quien su novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+yDa: {story: "Las novias están emocionadas de casarse con ciertos novios. Una novia fue llevada al altar por su novio, y otra no.", sentence: "La novia a quien su novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+nQa: {story: "Hay un cierto novio. Algunas novias fueron llevadas al altar por ese novio, y otras no.", sentence: "Cada novia a quien el novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+nDa: {story: "Hay un cierto novio. Una novia fue llevada al altar por ese novio, y otra no.", sentence: "La novia a quien el novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+yQq: {story: "Las novias están emocionadas de casarse con ciertos novios. Algunas novias fueron llevadas al altar por su novio, y otras no.", sentence: "Cada novia que su novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+yDq: {story: "Las novias están emocionadas de casarse con ciertos novios. Una novia fue llevada al altar por su novio, y otra no.", sentence: "La novia que su novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+nQq: {story: "Hay un cierto novio. Algunas novias fueron llevadas al altar por ese novio, y otras no.", sentence: "Cada novia que el novio llevó al altar dejó impresionada a la audiencia.", item: "groom"},
+nDq: {story: "Hay un cierto novio. Una novia fue llevada al altar por ese novio, y otra no.", sentence: "La novia que el novio llevó al altar dejó impresionada a la audiencia.", item: "groom"}}

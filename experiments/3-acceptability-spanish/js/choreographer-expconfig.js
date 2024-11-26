@@ -1,0 +1,10 @@
+choreographerxconfig = 
+{itemtype: "test",
+yQa: {story: "Las bailarinas son asesoradas por ciertos coreógrafos. Algunas bailarinas fueron mencionadas en la fiesta por su coreógrafo, y otras no.", sentence: "Cada bailarina a quien su coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+yDa: {story: "Las bailarinas son asesoradas por ciertos coreógrafos. Una bailarina fue mencionada en la fiesta por su coreógrafo, y otra no.", sentence: "La bailarina a quien su coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+nQa: {story: "Hay un cierto coreógrafo. Algunas bailarinas fueron mencionadas en la fiesta por ese coreógrafo, y otras no.", sentence: "Cada bailarina a quien el coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+nDa: {story: "Hay un cierto coreógrafo. Una bailarina fue mencionada en la fiesta por ese coreógrafo, y otra no.", sentence: "La bailarina a quien el coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+yQq: {story: "Las bailarinas son asesoradas por ciertos coreógrafos. Algunas bailarinas fueron mencionadas en la fiesta por su coreógrafo, y otras no.", sentence: "Cada bailarina que su coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+yDq: {story: "Las bailarinas son asesoradas por ciertos coreógrafos. Una bailarina fue mencionada en la fiesta por su coreógrafo, y otra no.", sentence: "La bailarina que su coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+nQq: {story: "Hay un cierto coreógrafo. Algunas bailarinas fueron mencionadas en la fiesta por ese coreógrafo, y otras no.", sentence: "Cada bailarina que el coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"},
+nDq: {story: "Hay un cierto coreógrafo. Una bailarina fue mencionada en la fiesta por ese coreógrafo, y otra no.", sentence: "La bailarina que el coreógrafo mencionó en la fiesta nunca tuvo un debut.", item: "choreographer"}}

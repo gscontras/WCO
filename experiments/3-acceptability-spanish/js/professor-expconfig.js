@@ -1,0 +1,10 @@
+professorxconfig = 
+{itemtype: "test",
+yQa: {story: "Los estudiantes tienen ciertos profesores. Algunos estudiantes fueron presentados ante la facultad por su profesor, y otros no.", sentence: "Cada estudiante a quien su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+yDa: {story: "Los estudiantes tienen ciertos profesores. Un estudiante fue presentado ante la facultad por su profesor, y otro no.", sentence: "El estudiante a quien su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+nQa: {story: "Hay un cierto profesor. Algunos estudiantes fueron presentados ante la facultad por el profesor, y otros no.", sentence: "Cada estudiante a quien el profesor presentó ante la facultad influenció al decano.", item: "professor"},
+nDa: {story: "Hay un cierto profesor. Un estudiante fue presentado ante la facultad por el profesor, y otro no.", sentence: "El estudiante a quien el profesor presentó ante la facultad influenció al decano.", item: "professor"},
+yQq: {story: "Los estudiantes tienen ciertos profesores. Algunos estudiantes fueron presentados ante la facultad por su profesor, y otros no.", sentence: "Cada estudiante que su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+yDq: {story: "Los estudiantes tienen ciertos profesores. Un estudiante fue presentado ante la facultad por su profesor, y otro no.", sentence: "El estudiante que su profesor presentó ante la facultad influenció al decano.", item: "professor"},
+nQq: {story: "Hay un cierto profesor. Algunos estudiantes fueron presentados ante la facultad por el profesor, y otros no.", sentence: "Cada estudiante que el profesor presentó ante la facultad influenció al decano.", item: "professor"},
+nDq: {story: "Hay un cierto profesor. Un estudiante fue presentado ante la facultad por el profesor, y otro no.", sentence: "El estudiante que el profesor presentó ante la facultad influenció al decano.", item: "professor"}}

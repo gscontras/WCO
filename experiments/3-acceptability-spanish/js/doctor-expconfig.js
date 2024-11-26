@@ -1,0 +1,10 @@
+doctorxconfig = 
+{itemtype: "test",
+yQa: {story: "Las enfermeras trabajan para ciertos médicos. Algunas enfermeras fueron consultadas en la clínica por su médico, y otras no.", sentence: "Cada enfermera a quien su médico consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+yDa: {story: "Las enfermeras trabajan para ciertos médicos. Una enfermera fue consultada en la clínica por su médico, y otra no.", sentence: "La enfermera a quien su médico consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+nQa: {story: "Hay un médico en particular. Algunas enfermeras fueron consultadas en la clínica por ese médico, y otras no.", sentence: "Cada enfermera a quien el doctor consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+nDa: {story: "Hay un médico en particular. Una enfermera fue consultada en la clínica por ese médico, y otra no.", sentence: "La enfermera a quien el doctor consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+yQq: {story: "Las enfermeras trabajan para ciertos médicos. Algunas enfermeras fueron consultadas en la clínica por su médico, y otras no.", sentence: "Cada enfermera que su médico consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+yDq: {story: "Las enfermeras trabajan para ciertos médicos. Una enfermera fue consultada en la clínica por su médico, y otra no.", sentence: "La enfermera que su médico consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+nQq: {story: "Hay un médico en particular. Algunas enfermeras fueron consultadas en la clínica por ese médico, y otras no.", sentence: "Cada enfermera que el doctor consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"},
+nDq: {story: "Hay un médico en particular. Una enfermera fue consultada en la clínica por ese médico, y otra no.", sentence: "La enfermera que el doctor consultó en la clínica ofreció una perspectiva valiosa.", item: "doctor"}}

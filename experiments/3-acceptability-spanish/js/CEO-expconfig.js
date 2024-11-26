@@ -1,0 +1,10 @@
+CEOxconfig = 
+{itemtype: "test",
+yQa: {story: "Las secretarias son contratadas por ciertos directores ejecutivos. Algunas secretarias fueron recordadas con exactitud por su CEO, y otras no.", sentence: "Cada secretaria a quien su CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+yDa: {story: "Las secretarias son contratadas por ciertos directores ejecutivos. Una secretaria fue recordada con exactitud por su CEO, y otra no.", sentence: "La secretaria a quien su CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+nQa: {story: "Hay un cierto CEO. Algunas secretarias fueron recordadas con exactitud por ese CEO, y otras no.", sentence: "Cada secretaria a quien el CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+nDa: {story: "Hay un CEO en particular. Una secretaria fue recordada con exactitud por ese CEO, y otra no.", sentence: "La secretaria a quien el CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+yQq: {story: "Las secretarias son contratadas por ciertos directores ejecutivos. Algunas secretarias fueron recordadas con exactitud por su CEO, y otras no.", sentence: "Cada secretaria que su CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+yDq: {story: "Las secretarias son contratadas por ciertos directores ejecutivos. Una secretaria fue recordada con exactitud por su CEO, y otra no.", sentence: "La secretaria que su CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+nQq: {story: "Hay un cierto CEO. Algunas secretarias fueron recordadas con exactitud por ese CEO, y otras no.", sentence: "Cada secretaria que el CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"},
+nDq: {story: "Hay un CEO en particular. Una secretaria fue recordada con exactitud por ese CEO, y otra no.", sentence: "La secretaria que el CEO recordaba bien impresionó a la junta de administradores.", item: "CEO"}}
