@@ -9,3 +9,4 @@ experiments/1-SONA/analysis/sentence_rating_external-merged.csv
 experiments/.DS_Store
 experiments/3-acceptability-spanish/3-acceptability-spanish-sandbox-workerids.csv
 experiments/3-acceptability-spanish/3-acceptability-spanish-workerids.csv
+experiments/3-acceptability-spanish/analysis/.Rhistory

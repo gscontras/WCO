@@ -66,21 +66,34 @@ ggplot(data=d_s,aes(x=WCO,y=response,fill=determiner))+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=WCO, width=0.25),alpha=1,position=position_dodge(.9))+
   facet_grid(.~relativizer) +
   theme_bw() + 
+  ylim(0,1)+
   ylab("rating\n") +
   scale_fill_manual(values = c("D" = "gray90", "Q" = "gray65"),
                     labels = c("D" = "definite", "Q" = "quantifier")) +
   labs(x = NULL, fill = NULL)
-#ggsave("full-results-spanish.png",width=5.5,height=2)
+#ggsave("full-results-spanish.png",width=5.5,height=2.2)
 
 
 ## fit a linear mixed-effects model
 library(lme4)
 library(lmerTest)
+
 m = lmer(response~WCO*determiner*relativizer+(1|item)+(1|workerid), data=t)
 summary(m)
 
+#                                  Estimate Std. Error         df t value Pr(>|t|)    
+#  (Intercept)                     0.736478   0.032426 130.200000  22.713  < 2e-16 ***
+#  WCOy                           -0.044816   0.030042 873.900000  -1.492  0.13611    
+#  determinerQ                    -0.070299   0.030454 882.900000  -2.308  0.02121 *  
+#  relativizerq                    0.019796   0.030006 872.800000   0.660  0.50960    
+#  WCOy:determinerQ               -0.008204   0.042809 879.300000  -0.192  0.84806    
+#  WCOy:relativizerq              -0.128358   0.042375 871.700000  -3.029  0.00252 ** 
+#  determinerQ:relativizerq        0.012869   0.042722 878.000000   0.301  0.76331    
+#  WCOy:determinerQ:relativizerq   0.105987   0.060171 874.900000   1.761  0.07852 .  
 
-
+#model with presentation order
+m2 = lmer(response~WCO*determiner*relativizer+slide_number+(1|item)+(1|workerid), data=t)
+summary(m2)
 
 ## calculate differences by participant
 
