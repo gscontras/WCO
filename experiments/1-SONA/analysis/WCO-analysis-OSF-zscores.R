@@ -176,6 +176,29 @@ ggplot(long_df, aes(x = z_controlled_response, fill = WCO)) +
                     labels = c("WCO = 'Y'", "WCO = 'N'")) +
   theme_minimal()
 
+# calculate difference score by subject
+
+f_z = matrix(unique(as.factor(t$unique_worker)), ncol = 1)
+f_z = as.data.frame(f_z)
+colnames(f_z)[1] <- "workerid"
+f_z$N_avg_z = 0
+f_z$Y_avg_z = 0
+for (i in unique(as.factor(t$unique_worker))){
+  f_z[f_z$workerid == i,]$N_avg_z = mean(t[t$unique_worker == i & (t$WCO=="N"),]$z_controlled_response)
+  f_z[f_z$workerid == i,]$Y_avg_z = mean(t[t$unique_worker == i & (t$WCO=="Y"),]$z_controlled_response)
+}
+f_z$avgDiff_z = f_z$N_avg_z - f_z$Y_avg_z
+
+ggplot(f_z, aes(x = avgDiff_z)) +
+  geom_histogram(color = "black", fill="gray65", bins=20) +
+  #geom_density()+
+  theme_bw() +
+  xlab("\nrating difference")+
+  ylab("count\n")
+#ggsave("participant-histogram_subject_z.png",width=4,height=2)
+
+
+
 
 #BEGIN ITEM ZSCORES HERE
 t$z_controlled_item <- NA
@@ -208,3 +231,25 @@ ggplot(long_item, aes(x = z_controlled_item, fill = WCO)) +
   scale_fill_manual(values = c("blue", "orange"), 
                     labels = c("WCO = 'Y'", "WCO = 'N'")) +
   theme_minimal()
+
+
+# calculate difference score by subject
+
+f_zs = matrix(unique(as.factor(t$unique_worker)), ncol = 1)
+f_zs = as.data.frame(f_zs)
+colnames(f_zs)[1] <- "workerid"
+f_zs$N_avg_zs = 0
+f_zs$Y_avg_zs = 0
+for (i in unique(as.factor(t$unique_worker))){
+  f_zs[f_zs$workerid == i,]$N_avg_zs = mean(t[t$unique_worker == i & (t$WCO=="N"),]$z_controlled_item)
+  f_zs[f_zs$workerid == i,]$Y_avg_zs = mean(t[t$unique_worker == i & (t$WCO=="Y"),]$z_controlled_item)
+}
+f_zs$avgDiff_zs = f_zs$N_avg_zs - f_zs$Y_avg_zs
+
+ggplot(f_zs, aes(x = avgDiff_zs)) +
+  geom_histogram(color = "black", fill="gray65", bins=20) +
+  #geom_density()+
+  theme_bw() +
+  xlab("\nrating difference")+
+  ylab("count\n")
+#ggsave("participant-histogram_item_z.png",width=4,height=2)
