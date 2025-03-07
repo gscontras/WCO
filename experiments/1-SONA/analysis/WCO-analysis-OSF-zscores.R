@@ -144,6 +144,17 @@ ggplot(f, aes(x = avgDiff)) +
 #ggsave("participant-histogram.png",width=4,height=2)
 
 
+# density plot of ratings
+ggplot(t, aes(x = response, fill = WCO)) +
+  geom_density(alpha = 0.5) +  # alpha controls transparency of the colors
+  labs(
+    x = "Response",
+    y = "Density") +
+  scale_fill_manual(values = c("blue", "orange"), 
+                    labels = c("no WCO", "WCO")) +
+  theme_minimal()
+#ggsave("ratings-density.png",width=4,height=2)
+
 #BEGIN SUBJECT ZSCORES HERE
 t$z_controlled_response <- NA
 
@@ -169,12 +180,13 @@ long_df <- melt(t, id.vars = c("unique_worker", "WCO"),
 # Create the density plot
 ggplot(long_df, aes(x = z_controlled_response, fill = WCO)) +
   geom_density(alpha = 0.5) +  # alpha controls transparency of the colors
-  labs(title = "Density Plot of Subj Z-Controlled Responses by Condition",
+  labs(
        x = "Z-Controlled Response",
        y = "Density") +
   scale_fill_manual(values = c("blue", "orange"), 
-                    labels = c("WCO = 'Y'", "WCO = 'N'")) +
+                    labels = c("no WCO", "WCO")) +
   theme_minimal()
+#ggsave("zcontrolled_subj.png",width=4,height=2)
 
 # calculate difference score by subject
 
@@ -225,13 +237,13 @@ long_item <- melt(t, id.vars = c("item", "WCO"),
 # Create the density plot
 ggplot(long_item, aes(x = z_controlled_item, fill = WCO)) +
   geom_density(alpha = 0.5) +  # alpha controls transparency of the colors
-  labs(title = "Density Plot of Item Z-Controlled Responses by Condition",
+  labs(
        x = "Z-Controlled Response",
        y = "Density") +
   scale_fill_manual(values = c("blue", "orange"), 
-                    labels = c("WCO = 'Y'", "WCO = 'N'")) +
+                    labels = c("no WCO", "WCO")) +
   theme_minimal()
-
+#ggsave("zcontrolled_item.png",width=4,height=2)
 
 # calculate difference score by subject
 
