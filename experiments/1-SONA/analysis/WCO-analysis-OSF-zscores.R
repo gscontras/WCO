@@ -104,7 +104,7 @@ ggplot(data=d_s,aes(x=WCO,y=response,fill=determiner))+
   geom_errorbar(aes(ymin=bootsci_low, ymax=bootsci_high, x=WCO, width=0.25),alpha=1,position=position_dodge(.9))+
   facet_grid(.~animacy) +
   theme_bw() + 
-  ylab("rating\n") +
+  ylab("Rating\n") +
   scale_fill_manual(values = c("D" = "gray90", "Q" = "gray65"),
                     labels = c("D" = "R-expression", "Q" = "quantifier")) +
   labs(x = NULL, fill = NULL)
@@ -139,8 +139,8 @@ ggplot(f, aes(x = avgDiff)) +
   geom_histogram(color = "black", fill="gray65", bins=20) +
   #geom_density()+
   theme_bw() +
-  xlab("\nrating difference")+
-  ylab("count\n")
+  xlab("\nRating difference")+
+  ylab("Count\n")
 #ggsave("participant-histogram.png",width=4,height=2)
 
 

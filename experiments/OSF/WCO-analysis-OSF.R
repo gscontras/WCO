@@ -85,6 +85,9 @@ for(i in unique(as.factor(e$workerid))) {
 
 length(unique(e$workerid)) # 78 passed attention checks
 
+mean(as.numeric(e$subject_information.age),na.rm = TRUE) # average age 21
+table(e$subject_information.gender) # 81% female
+
 ## only critical trials
 t = e[e$condition!="filler"&e$condition!="",]
 
